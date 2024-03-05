@@ -1,3 +1,3 @@
-# Revert all changes to a file on current branch
+# Revert all committed changes to a file on current branch
 git diff main <file-name> > change.diff
 git apply --reverse change.diff
